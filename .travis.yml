@@ -1,0 +1,13 @@
+language: java
+
+dist: xenial
+
+jdk:
+    - openjdk11
+
+before_install:
+    - chmod +x mvnw
+
+script:
+    - ./mvnw -B clean package
+
