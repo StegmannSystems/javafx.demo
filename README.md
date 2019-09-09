@@ -1,13 +1,23 @@
 # javafx.demo
 A very simple Java FX Demo
 
+[![Build Status](https://travis-ci.com/StegmannSystems/javafx.demo.svg?branch=master)](https://travis-ci.com/StegmannSystems/javafx.demo)
 
 
-Running on Windows and Linux environment (at least):
+## Running build on Windows and Linux environment (at least)
 
 ```
-./mvnw -B clean package
+mvnw -B clean package
 ```
+
+## Running the application
+
+```
+mwnw clean javafx:run
+```
+
+
+## Docker
 
 **Please note**: Requires at least Java 11.
 
